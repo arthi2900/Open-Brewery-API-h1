@@ -5,8 +5,7 @@ async function getAllData(){
         var obj=await data.json()
         console.log(obj)
         obj.forEach(element =>{
-            var tb=document.createElement("table");
-            tb.style.border="5px thick black";
+         
             var nameb=document.createElement("div");
                         var type=document.createElement("div");
             var add1=document.createElement("div");
